@@ -1,0 +1,45 @@
+div#header {
+    background-color:lightgray;
+    height:max-content;
+}
+
+div.menu {
+    background-color:lightblue;
+    width:300px;
+    margin-left:0;
+}
+
+div.menu ul {
+    margin-left:0;
+    padding-left:0;
+    width:300px;
+}
+
+div.menu ul li {
+    list-style:none;
+    list-style-type:none;
+    margin-left:0;
+    padding-left:0;
+}
+
+div.menu ul li:nth-child(even) {
+    background-color:white;
+}
+
+div.menu ul li:nth-child(odd){
+    background-color:lightgray;
+}
+
+div#header {
+    background-color:lightgray;
+}
+
+div.container div.menu0 ul li {
+    display:inline;
+    background-color:gray;
+    color:white;
+    text-align:center;
+    margin:0 0 2px 2px;
+    padding:2px;
+    border:1px solid black;
+}
